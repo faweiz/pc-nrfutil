@@ -8,10 +8,10 @@
 - go to its _build folder and run:
  * nrfutil pkg generate --debug-mode --application nrf52832_xxaa.hex --key-file key.pem blinky2.zip
 - upload to phone and do air DFU
-Tutorials:
-https://devzone.nordicsemi.com/tutorials/9/
-* --family nrf52 --reset --program "#H"
-http://blog.motsai.com/device-firmware-updates-dfu-on-the-nordic-nrf52-2/
+-Tutorials:
+* https://devzone.nordicsemi.com/tutorials/9/
+** --family nrf52 --reset --program "#H"
+* http://blog.motsai.com/device-firmware-updates-dfu-on-the-nordic-nrf52-2/
 
 # pc-nrfutil
 
