@@ -1,4 +1,4 @@
-#Usage:
+#Usage (For SDK 12):
 - install python
 - install pip
 - pip install nrfutil
