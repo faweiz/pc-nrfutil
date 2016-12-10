@@ -1,3 +1,14 @@
+#Usage:
+- install python
+- install pip
+- pip install nrfutil
+nrfutil keys generate key.pem
+nrfutil keys display --key pk --format code key.pem
+-copy the code shown on key.pem to "dfu_public_key.c" on examples\dfu\bootloader_secure\pca10040_debug\arm5...
+-go to its _build folder and run:
+nrfutil pkg generate --debug-mode --application nrf52832_xxaa.hex --key-file key.pem blinky2.zip
+-upload to phone and do air DFU
+
 # pc-nrfutil
 
 [![Latest version](https://img.shields.io/pypi/v/nrfutil.svg)](https://pypi.python.org/pypi/nrfutil)
