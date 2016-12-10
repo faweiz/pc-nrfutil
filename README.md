@@ -12,6 +12,7 @@
 * https://devzone.nordicsemi.com/tutorials/9/
 ** --family nrf52 --reset --program "#H"
 * http://blog.motsai.com/device-firmware-updates-dfu-on-the-nordic-nrf52-2/
+* https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.tools%2Fdita%2Ftools%2Fnrfutil%2Fnrfutil_intro.html
 
 # pc-nrfutil
 
